@@ -24,7 +24,7 @@ jobs:
 
       # 3. Run the load test (Keep this as is)
       - name: Azure Load Testing
-        uses: azure/load-testing@v1.1.27
+        uses: azure/load-testing@v1.2.2
         with:
           loadTestConfigFile: 'config.yaml'
           loadTestResource: ${{ env.LOAD_TEST_RESOURCE}}
